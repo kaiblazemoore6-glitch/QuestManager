@@ -10,6 +10,10 @@ jobs:
       - run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null || true
       - uses: gradle/actions/setup-gradle@v4
         with: { gradle-version: "8.7" }
-      - run: gradle assembleDebug
+      - shell: bash
+        run: gradle assembleDebug --console=plain 2>&1 | tee build.log
+      - if: failure()
+        run: |
+          grep -E "^e: |What went wrong|error:|Could not|Unresolved|not found" -A3 build.log | head -40 | while read -r l; do [ -n "$l" ] && echo "::error::$l"; done
       - uses: actions/upload-artifact@v4
         with: { name: QuestManager-apk, path: app/build/outputs/apk/debug/app-debug.apk }
