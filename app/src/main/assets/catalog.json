@@ -1,0 +1,209 @@
+[
+ {
+  "name": "Beat Saber",
+  "genres": [
+   "Rhythm",
+   "Action"
+  ],
+  "related": [
+   "Synth Riders",
+   "Pistol Whip"
+  ]
+ },
+ {
+  "name": "Synth Riders",
+  "genres": [
+   "Rhythm"
+  ],
+  "related": [
+   "Beat Saber",
+   "Pistol Whip"
+  ]
+ },
+ {
+  "name": "Pistol Whip",
+  "genres": [
+   "Rhythm",
+   "Shooter"
+  ],
+  "related": [
+   "Beat Saber",
+   "Superhot VR"
+  ]
+ },
+ {
+  "name": "Superhot VR",
+  "genres": [
+   "Shooter",
+   "Puzzle"
+  ],
+  "related": [
+   "Pistol Whip",
+   "Blade & Sorcery"
+  ]
+ },
+ {
+  "name": "Job Simulator",
+  "genres": [
+   "Comedy",
+   "Sandbox"
+  ],
+  "related": [
+   "Vacation Simulator",
+   "Cooking Simulator VR"
+  ]
+ },
+ {
+  "name": "Vacation Simulator",
+  "genres": [
+   "Comedy",
+   "Sandbox"
+  ],
+  "related": [
+   "Job Simulator"
+  ]
+ },
+ {
+  "name": "Moss",
+  "genres": [
+   "Adventure",
+   "Puzzle"
+  ],
+  "related": [
+   "Lone Echo"
+  ]
+ },
+ {
+  "name": "Walkabout Mini Golf",
+  "genres": [
+   "Sports",
+   "Social"
+  ],
+  "related": [
+   "Eleven Table Tennis",
+   "Rec Room"
+  ]
+ },
+ {
+  "name": "Eleven Table Tennis",
+  "genres": [
+   "Sports"
+  ],
+  "related": [
+   "Racket: Nx",
+   "Walkabout Mini Golf"
+  ]
+ },
+ {
+  "name": "Population: One",
+  "genres": [
+   "Shooter",
+   "Social"
+  ],
+  "related": [
+   "Rec Room",
+   "Gorilla Tag"
+  ]
+ },
+ {
+  "name": "Rec Room",
+  "genres": [
+   "Social",
+   "Party"
+  ],
+  "related": [
+   "Gorilla Tag",
+   "Population: One"
+  ]
+ },
+ {
+  "name": "Gorilla Tag",
+  "genres": [
+   "Social",
+   "Party"
+  ],
+  "related": [
+   "Rec Room",
+   "Population: One"
+  ]
+ },
+ {
+  "name": "Blade & Sorcery",
+  "genres": [
+   "Action",
+   "Sandbox"
+  ],
+  "related": [
+   "Superhot VR"
+  ]
+ },
+ {
+  "name": "Resident Evil 4",
+  "genres": [
+   "Horror",
+   "Shooter"
+  ],
+  "related": [
+   "Five Nights at Freddy's: Help Wanted"
+  ]
+ },
+ {
+  "name": "Five Nights at Freddy's: Help Wanted",
+  "genres": [
+   "Horror"
+  ],
+  "related": [
+   "Resident Evil 4"
+  ]
+ },
+ {
+  "name": "The Thrill of the Fight",
+  "genres": [
+   "Sports",
+   "Fitness"
+  ],
+  "related": [
+   "Racket: Nx"
+  ]
+ },
+ {
+  "name": "Demeo",
+  "genres": [
+   "Strategy",
+   "Social"
+  ],
+  "related": [
+   "Rec Room"
+  ]
+ },
+ {
+  "name": "Cooking Simulator VR",
+  "genres": [
+   "Sandbox",
+   "Comedy"
+  ],
+  "related": [
+   "Job Simulator"
+  ]
+ },
+ {
+  "name": "Racket: Nx",
+  "genres": [
+   "Sports",
+   "Fitness"
+  ],
+  "related": [
+   "Eleven Table Tennis",
+   "The Thrill of the Fight"
+  ]
+ },
+ {
+  "name": "Lone Echo",
+  "genres": [
+   "Adventure"
+  ],
+  "related": [
+   "Moss"
+  ]
+ }
+]

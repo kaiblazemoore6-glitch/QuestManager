@@ -1,0 +1,27 @@
+{
+ "com.beatgames.beatsaber": {
+  "name": "Beat Saber",
+  "goals": [
+   "Full-combo a song",
+   "Finish a song on Expert",
+   "Play a song with a friend",
+   "Try a custom-free map pack on Hard"
+  ],
+  "genres": [
+   "Rhythm",
+   "Action"
+  ]
+ },
+ "com.AnotherAxiom.GorillaTag": {
+  "name": "Gorilla Tag",
+  "goals": [
+   "Play a full session as the last survivor",
+   "Try every map",
+   "Customize your gorilla"
+  ],
+  "genres": [
+   "Social",
+   "Party"
+  ]
+ }
+}
